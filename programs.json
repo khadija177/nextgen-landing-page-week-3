@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Web Development Internship",
+    "description": "Learn HTML, CSS and JavaScript by building real-world projects.",
+    "duration": "4 Weeks",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "apply": "index.html"
+  },
+  {
+    "title": "Graphic Design Internship",
+    "description": "Learn Canva, Photoshop and Illustrator to create professional designs.",
+    "duration": "4 Weeks",
+    "skills": ["Canva", "Photoshop", "Illustrator"],
+    "apply": "index.html"
+  },
+  {
+    "title": "AI Tools & Prompt Engineering",
+    "description": "Explore AI tools and learn prompt engineering techniques.",
+    "duration": "4 Weeks",
+    "skills": ["ChatGPT", "Prompting", "AI"],
+    "apply": "index.html"
+  },
+  {
+    "title": "Data Science Internship",
+    "description": "Learn data analysis, visualization and Python basics.",
+    "duration": "4 Weeks",
+    "skills": ["Python", "Pandas", "NumPy"],
+    "apply": "index.html"
+  },
+  {
+    "title": "Video Editing Internship",
+    "description": "Create engaging videos using modern editing software.",
+    "duration": "4 Weeks",
+    "skills": ["Premiere Pro", "CapCut", "Editing"],
+    "apply": "index.html"
+  }
+]

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NextGenLearners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <img src="assets/images/logo.jpg" alt="NextGen Logo" class="logo">
+
+        <nav>
+
+    <button class="hamburger" id="hamburgerBtn">☰</button>
+
+    <ul class="nav-links" id="navLinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+        </nav>
+            
+
+    </header>
+
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>Empowering Pakistan's Next Generation of Tech Talent</h1>
+
+            <p>
+                Learn, Build and Grow with NextGenLearners through internships,
+                mentorship, certifications, hackathons and workshops.
+            </p>
+
+            <button>Apply for Internship</button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="assets/images/hero.jpg" alt="Hero Image">
+
+        </div>
+
+    </section>
+    <!-- Internship Application Form -->
+
+<section class="application">
+
+    <h2>Internship Application</h2>
+
+    <form id="applicationForm">
+
+        <input type="text" id="fullName" placeholder="Full Name">
+        <small class="error" id="nameError"></small>
+
+        <input type="email" id="email" placeholder="Email Address">
+        <small class="error" id="emailError"></small>
+
+        <input type="text" id="phone" placeholder="Phone Number">
+        <small class="error" id="phoneError"></small>
+
+        <select id="domain">
+            <option value="">Select Domain</option>
+            <option>Web Development</option>
+            <option>Graphic Design</option>
+            <option>Digital Marketing</option>
+            <option>Python Development</option>
+        </select>
+        <small class="error" id="domainError"></small>
+
+        <input type="text" id="university" placeholder="University Name">
+        <small class="error" id="universityError"></small>
+
+        <textarea id="statement" rows="4" placeholder="Why do you want this internship?"></textarea>
+        <small class="error" id="statementError"></small>
+
+        <button type="submit">Submit Application</button>
+
+    </form>
+
+    <p id="successMessage"></p>
+
+    <h3>My Submissions</h3>
+    
+
+    <div id="submissions"></div>
+
+</section>
+
+
+    <!-- Our Offerings -->
+
+    <section class="offerings">
+
+        <h2>Our Offerings</h2>
+
+        <div class="offerings-grid">
+
+            <div class="card">
+
+                <img src="assets/icons/laptop.png" alt="Laptop">
+
+                <h3>Virtual Internships</h3>
+
+                <p>
+                    Gain real industry experience by working on practical projects remotely.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="assets/icons/mentor.png" alt="Mentor">
+
+                <h3>Mentorship</h3>
+
+                <p>
+                    Learn directly from experienced professionals and industry experts.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="assets/icons/certificate.png" alt="Certificate">
+
+                <h3>Certifications</h3>
+
+                <p>
+                    Earn recognized certificates after completing learning programs.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="assets/icons/trophy.png" alt="Trophy">
+
+                <h3>Hackathons & Competitions</h3>
+
+                <p>
+                    Participate in exciting competitions to showcase your technical skills.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <img src="assets/icons/webinar.png" alt="Webinar">
+
+                <h3>Webinars & Workshops</h3>
+
+                <p>
+                    Attend interactive sessions and improve your professional knowledge.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="social-icons">
+
+            <a href="#">
+                <img src="assets/icons/facebook.png" alt="Facebook">
+            </a>
+
+            <a href="#">
+                <img src="assets/icons/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="#">
+                <img src="assets/icons/instagram.jpg" alt="Instagram">
+            </a>
+
+        </div>
+
+        <p>© 2026 NextGenLearners. All Rights Reserved.</p>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
